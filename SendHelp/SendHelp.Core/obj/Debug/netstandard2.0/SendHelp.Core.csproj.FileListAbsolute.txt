@@ -1,0 +1,10 @@
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\bin\Debug\netstandard2.0\SendHelp.Core.deps.json
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\bin\Debug\netstandard2.0\SendHelp.Core.dll
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\bin\Debug\netstandard2.0\SendHelp.Core.pdb
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.csproj.AssemblyReference.cache
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.AssemblyInfoInputs.cache
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.AssemblyInfo.cs
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.csproj.CoreCompileInputs.cache
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.dll
+D:\WPFSpiel (Sendhelp)\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.pdb
