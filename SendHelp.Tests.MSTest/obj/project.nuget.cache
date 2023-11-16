@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "32VZILbPq/hxJfnPw7TCx0o+hRnBVRR4Cj6OhOjTt76Xd0wRgubTpvAkS4BgO4Pva4Rcu5BY4GC9eI3b/LvuCw==",
+  "dgSpecHash": "583Yni9dT1v8Nq4p90W1NCgKTvhjwDCVzoYVoSfIigx/TMFAA5ahcveRgyPu4d/6fKJEJbYdJpHZEbwNBWd8Jw==",
   "success": true,
   "projectFilePath": "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
   "expectedPackageFiles": [
@@ -126,7 +126,7 @@
     "C:\\Users\\roesser\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\unity.abstractions\\5.11.7\\unity.abstractions.5.11.7.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\unity.container\\5.11.11\\unity.container.5.11.11.nupkg.sha512",
-    "C:\\Users\\roesser\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512"
+    "C:\\Users\\roesser\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
   "logs": []
 }
