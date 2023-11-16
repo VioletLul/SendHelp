@@ -2,45 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8ae283-0fb7-43ae-a7a0-b995534e87e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/05a45abc-c835-454e-b231-0a0517c2b393.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/206a28da-8ee1-448e-ae36-d7e248010789.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/48f6aaf4-3686-4938-9c33-0d320f05661a.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/5a454eeb-7fb2-4280-be36-49d1a133eb5f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/sendhelp.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sendhelp.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/sendhelp.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sendhelp.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SendHelp/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SendHelp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SendHelp/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/MetroWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/MetroWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Dark.Blue.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Dark.Blue.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Light.Blue.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Light.Blue.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/_Thickness.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/_Thickness.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/ShellWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/ShellWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/Views/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/Views/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/bin/Debug/net6.0-windows10.0.19041.0/SendHelp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/bin/Debug/net6.0-windows10.0.19041.0/SendHelp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/bin/Debug/net6.0-windows10.0.19041.0/SendHelp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/bin/Debug/net6.0-windows10.0.19041.0/SendHelp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Debug/net6.0-windows10.0.19041.0/Views/MainPage.g.i.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YFzJq4EL9VjYmvE8bPPfudHqDn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700136047181</updated>
       <workItem from="1700136050979" duration="4000" />
+      <workItem from="1700138836226" duration="2000" />
     </task>
     <servers />
   </component>

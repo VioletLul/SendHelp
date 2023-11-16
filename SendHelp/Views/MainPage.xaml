@@ -18,13 +18,20 @@
             Margin="{StaticResource MediumLeftMargin}"
             Text="{x:Static properties:Resources.MainPageTitle}" />
         <Grid Grid.Row="1" Background="CornflowerBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="397*" />
+                <ColumnDefinition Width="403*" />
+            </Grid.ColumnDefinitions>
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,42">
                 <Button BorderBrush="Black" Background="BlueViolet"  Width="80" Height="25" Command="{Binding ButtonCommand2}" />
                 <Label Height="25" Width="80" Content="Spieler 1" />
             </StackPanel>
-            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="40,0,50,42">
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,50,42" Grid.Column="1">
                 <Button Height="25" Width="80" Background="Crimson" BorderBrush="Black" Command="{Binding ButtonCommand}" />
                 <Label Height="25" Width="80" Content="Spieler 2"></Label>
+            </StackPanel>
+            <StackPanel Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                <Button Background="Black" Content="Button" Height="175" Width="3" IsEnabled="False" />
             </StackPanel>
         </Grid>
     </Grid>
