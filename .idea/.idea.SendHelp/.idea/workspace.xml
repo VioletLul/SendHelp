@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d8ae283-0fb7-43ae-a7a0-b995534e87e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/05a45abc-c835-454e-b231-0a0517c2b393.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/206a28da-8ee1-448e-ae36-d7e248010789.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/48f6aaf4-3686-4938-9c33-0d320f05661a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/FileContentIndex/5a454eeb-7fb2-4280-be36-49d1a133eb5f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SendHelp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SendHelp/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Core/obj/Release/netstandard2.0/SendHelp.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x64/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Debug/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp.Tests.MSTest/obj/x86/Release/net6.0-windows10.0.19041.0/SendHelp.Tests.MSTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/SendHelp_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/MetroWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/MetroWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Dark.Blue.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Dark.Blue.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Light.Blue.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/Themes/HC.Light.Blue.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/_Thickness.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Styles/_Thickness.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/MainPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/ShellWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SendHelp/obj/Release/net6.0-windows10.0.19041.0/Views/ShellWindow.g.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2YFzJq4EL9VjYmvE8bPPfudHqDn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d8ae283-0fb7-43ae-a7a0-b995534e87e5" name="Changes" comment="" />
+      <created>1700136047181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700136047181</updated>
+      <workItem from="1700136050979" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
