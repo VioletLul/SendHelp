@@ -1,20 +1,18 @@
-﻿using System.Windows.Controls;
-
-using MahApps.Metro.Controls;
-
+﻿using MahApps.Metro.Controls;
 using Prism.Regions;
+using System.Windows.Controls;
 
 namespace SendHelp.Contracts.Services;
 
 public interface IRightPaneService
 {
-    event EventHandler PaneOpened;
-
     event EventHandler PaneClosed;
 
-    void OpenInRightPane(string pageKey, NavigationParameters navigationParameters = null);
+    event EventHandler PaneOpened;
+
+    void CleanUp();
 
     void Initialize(SplitView splitView, ContentControl rightPaneContentControl);
 
-    void CleanUp();
+    void OpenInRightPane(string pageKey, NavigationParameters navigationParameters = null);
 }

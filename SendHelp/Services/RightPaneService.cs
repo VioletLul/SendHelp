@@ -1,11 +1,9 @@
-﻿using System.Windows.Controls;
-
-using MahApps.Metro.Controls;
-
+﻿using MahApps.Metro.Controls;
 using Prism.Regions;
-
 using SendHelp.Constants;
 using SendHelp.Contracts.Services;
+using System.Windows.Controls;
+using SendHelp.Helpers;
 
 namespace SendHelp.Services;
 
@@ -15,13 +13,19 @@ public class RightPaneService : IRightPaneService
     private IRegionNavigationService _rightPaneNavigationService;
     private SplitView _splitView;
 
-    public event EventHandler PaneOpened;
-
-    public event EventHandler PaneClosed;
-
     public RightPaneService(IRegionManager regionManager)
     {
         _regionManager = regionManager;
+    }
+
+    public event EventHandler PaneClosed;
+
+    public event EventHandler PaneOpened;
+
+    public void CleanUp()
+    {
+        _splitView.PaneClosed -= OnPaneClosed;
+        _regionManager.Regions.Remove(Regions.RightPane);
     }
 
     public void Initialize(SplitView splitView, ContentControl rightPaneContentControl)
@@ -31,12 +35,6 @@ public class RightPaneService : IRightPaneService
         RegionManager.SetRegionManager(rightPaneContentControl, _regionManager);
         _rightPaneNavigationService = _regionManager.Regions[Regions.RightPane].NavigationService;
         _splitView.PaneClosed += OnPaneClosed;
-    }
-
-    public void CleanUp()
-    {
-        _splitView.PaneClosed -= OnPaneClosed;
-        _regionManager.Regions.Remove(Regions.RightPane);
     }
 
     public void OpenInRightPane(string pageKey, NavigationParameters navigationParameters = null)

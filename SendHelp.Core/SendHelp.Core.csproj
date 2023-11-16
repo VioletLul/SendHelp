@@ -13,5 +13,6 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.6" />
   </ItemGroup>
 </Project>

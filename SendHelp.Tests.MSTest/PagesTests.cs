@@ -1,18 +1,13 @@
-﻿using System.IO;
-using System.Reflection;
-
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 using Prism.Regions;
-
 using SendHelp.Contracts.Services;
 using SendHelp.Core.Contracts.Services;
 using SendHelp.Core.Services;
 using SendHelp.Models;
 using SendHelp.Services;
 using SendHelp.ViewModels;
-
+using System.Reflection;
 using Unity;
 
 namespace SendHelp.Tests.MSTest;

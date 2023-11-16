@@ -1,11 +1,8 @@
-﻿using System.Windows;
-
-using ControlzEx.Theming;
-
+﻿using ControlzEx.Theming;
 using MahApps.Metro.Theming;
-
 using SendHelp.Contracts.Services;
 using SendHelp.Models;
+using System.Windows;
 
 namespace SendHelp.Services;
 
@@ -16,6 +13,18 @@ public class ThemeSelectorService : IThemeSelectorService
 
     public ThemeSelectorService()
     {
+    }
+
+    public AppTheme GetCurrentTheme()
+    {
+        if (App.Current.Properties.Contains("Theme"))
+        {
+            var themeName = App.Current.Properties["Theme"].ToString();
+            Enum.TryParse(themeName, out AppTheme theme);
+            return theme;
+        }
+
+        return AppTheme.Default;
     }
 
     public void InitializeTheme()
@@ -45,17 +54,5 @@ public class ThemeSelectorService : IThemeSelectorService
         }
 
         App.Current.Properties["Theme"] = theme.ToString();
-    }
-
-    public AppTheme GetCurrentTheme()
-    {
-        if (App.Current.Properties.Contains("Theme"))
-        {
-            var themeName = App.Current.Properties["Theme"].ToString();
-            Enum.TryParse(themeName, out AppTheme theme);
-            return theme;
-        }
-
-        return AppTheme.Default;
     }
 }

@@ -54,6 +54,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.6, )"
             }
           },
           "imports": [
@@ -124,6 +128,10 @@
               "target": "Package",
               "version": "[2.4.9, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -140,9 +148,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "Prism.Unity": {
               "target": "Package",
               "version": "[8.1.97, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.6, )"
             }
           },
           "imports": [

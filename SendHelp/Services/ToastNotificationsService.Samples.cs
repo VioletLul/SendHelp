@@ -23,7 +23,7 @@ public partial class ToastNotificationsService
                     {
                         new AdaptiveText()
                         {
-                            Text = "Sample Toast Notification"
+                            Text = "Test"
                         },
 
                         new AdaptiveText()
