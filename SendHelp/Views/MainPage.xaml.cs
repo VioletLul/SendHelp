@@ -13,10 +13,10 @@ public partial class MainPage : UserControl
 
     private void Grid_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
     {
-        var mousePos = Mouse.GetPosition(Button);
+        var mousePos = Mouse.GetPosition(grid);
         var mousePosX = mousePos.X;
         var mousePosY = mousePos.Y;
-        MessageBox.Show(Convert.ToString("Y= " + mousePosY));
-        MessageBox.Show(Convert.ToString("X= " + mousePosX));
+        MessageBox.Show(Convert.ToString("Y: " + mousePosY));
+        MessageBox.Show(Convert.ToString("X: " + mousePosX));
     }
 }

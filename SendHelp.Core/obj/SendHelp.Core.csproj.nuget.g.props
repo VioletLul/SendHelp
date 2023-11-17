@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\roesser\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMvvmLight Condition=" '$(PkgMvvmLight)' == '' ">C:\Users\roesser\.nuget\packages\mvvmlight\5.4.1.1</PkgMvvmLight>
+  </PropertyGroup>
 </Project>

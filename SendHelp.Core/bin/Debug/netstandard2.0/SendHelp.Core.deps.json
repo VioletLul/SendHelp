@@ -10,11 +10,20 @@
       "SendHelp.Core/1.0.0": {
         "dependencies": {
           "HtmlRenderer.WinForms": "1.5.0.6",
+          "MvvmLight": "5.4.1.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "SendHelp.Core.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
         }
       },
       "HtmlRenderer.Core/1.5.0.5": {
@@ -37,6 +46,34 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmLight/5.4.1.1": {
+        "dependencies": {
+          "MvvmLightLibs": "5.4.1.1"
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -58,6 +95,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CommonServiceLocator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OeAz2cDGiQuaxpJ2pUm1xyZyklT2HgP5LHoumI0o/pcXdTweJMjKHu92JKa33pZRCrRI0DdPcE5MGHk6GCpDMQ==",
+      "path": "commonservicelocator/2.0.2",
+      "hashPath": "commonservicelocator.2.0.2.nupkg.sha512"
+    },
     "HtmlRenderer.Core/1.5.0.5": {
       "type": "package",
       "serviceable": true,
@@ -78,6 +122,20 @@
       "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmLight/5.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTUDMWT//ChZGd7Q5k0IaJuIXgh+FM43pCStxup7kgh1MQXvC48CjpjWkp5Auru/YXhHOJOMgD1NdtFZgn6K2g==",
+      "path": "mvvmlight/5.4.1.1",
+      "hashPath": "mvvmlight.5.4.1.1.nupkg.sha512"
+    },
+    "MvvmLightLibs/5.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
+      "path": "mvvmlightlibs/5.4.1.1",
+      "hashPath": "mvvmlightlibs.5.4.1.1.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
