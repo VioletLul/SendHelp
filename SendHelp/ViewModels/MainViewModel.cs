@@ -1,9 +1,13 @@
 ﻿using System.ComponentModel;
+using System.Drawing.Drawing2D;
 using GalaSoft.MvvmLight.CommandWpf;
 using Prism.Mvvm;
 using System.Windows;
 using System.Windows.Input;
+using Windows.Devices.Geolocation;
+using Windows.UI.Core.AnimationMetrics;
 using GalaSoft.MvvmLight;
+using MahApps.Metro.Controls;
 using SendHelp.Models;
 
 namespace SendHelp.ViewModels;
@@ -29,12 +33,10 @@ public class MainViewModel : ViewModelBase
 
     private void ButtonAction()
     {
-        MessageBox.Show("Spieler 2", "Online");
     }
 
     private void ButtonAction2()
     {
-        MessageBox.Show("Spieler 1", "Online");
     }
 
     private void ThrowRectangle()
@@ -42,6 +44,6 @@ public class MainViewModel : ViewModelBase
         Player playerA = new Player { Points = 0 };
         Player playerB = new Player { Points = 0 };
 
-        _gameModel.ThrowRectangle(playerA, playerB);
+        _gameModel.AimAndThrowProjectile(playerA, 55, 55);
     }
 }
