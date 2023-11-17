@@ -93,7 +93,7 @@ namespace SendHelp.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SendHelp;component/views/shellwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SendHelp;V1.0.0.0;component/views/shellwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ShellWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

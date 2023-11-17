@@ -6,7 +6,7 @@ using Windows.UI.Notifications;
 
 namespace SendHelp.Services;
 
-public partial class ToastNotificationsService : IToastNotificationsService
+public abstract partial class ToastNotificationsService : IToastNotificationsService
 {
     public ToastNotificationsService()
     {

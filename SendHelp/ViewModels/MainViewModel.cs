@@ -1,22 +1,15 @@
-﻿using System.ComponentModel;
-using System.Drawing.Drawing2D;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
-using Prism.Mvvm;
-using System.Windows;
 using System.Windows.Input;
-using Windows.Devices.Geolocation;
-using Windows.UI.Core.AnimationMetrics;
-using GalaSoft.MvvmLight;
-using MahApps.Metro.Controls;
 using SendHelp.Models;
 
 namespace SendHelp.ViewModels;
 
-public class MainViewModel : ViewModelBase
+public abstract class MainViewModel : ViewModelBase
 {
-    private GameModel _gameModel;
+    private readonly GameModel _gameModel;
 
-    public MainViewModel()
+    protected MainViewModel()
     {
         _gameModel = new GameModel();
         ButtonCommand2 = new RelayCommand(ButtonAction2);
@@ -41,9 +34,9 @@ public class MainViewModel : ViewModelBase
 
     private void ThrowRectangle()
     {
-        Player playerA = new Player { Points = 0 };
-        Player playerB = new Player { Points = 0 };
+        var playerA = new Player { Points = 5 };
+        var playerB = new Player { Points = 0 };
 
-        _gameModel.AimAndThrowProjectile(playerA, 55, 55);
+        GameModel.AimAndThrowProjectile(playerA, 55, 55);
     }
 }

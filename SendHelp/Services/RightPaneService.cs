@@ -2,12 +2,12 @@
 using Prism.Regions;
 using SendHelp.Constants;
 using SendHelp.Contracts.Services;
-using System.Windows.Controls;
 using SendHelp.Helpers;
+using System.Windows.Controls;
 
 namespace SendHelp.Services;
 
-public class RightPaneService : IRightPaneService
+public abstract class RightPaneService : IRightPaneService
 {
     private readonly IRegionManager _regionManager;
     private IRegionNavigationService _rightPaneNavigationService;

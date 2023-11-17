@@ -1,10 +1,11 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.IO;
+﻿using System.IO;
+using Microsoft.Data.Sqlite;
+
+namespace SendHelp.Models;
 
 public class GameModel
 {
-    private SqliteConnection _connection;
+    private readonly SqliteConnection _connection;
 
     public GameModel()
     {
@@ -12,11 +13,9 @@ public class GameModel
         _connection = new SqliteConnection($"Data Source={databasePath}");
         _connection.Open();
 
-        using (var command = _connection.CreateCommand())
-        {
-            command.CommandText = "CREATE TABLE IF NOT EXISTS Players (Id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, Points INTEGER)";
-            command.ExecuteNonQuery();
-        }
+        using var command = _connection.CreateCommand();
+        command.CommandText = "CREATE TABLE IF NOT EXISTS Players (Id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, Points INTEGER)";
+        command.ExecuteNonQuery();
     }
 
     // Stelle sicher, dass die Verbindung ordnungsgemäß geschlossen wird, wenn das Objekt verworfen wird
@@ -25,39 +24,39 @@ public class GameModel
         _connection?.Dispose();
     }
 
-    public void AimAndThrowProjectile(Player throwingPlayer, double targetX, double targetY)
+    public static void AimAndThrowProjectile(Player throwingPlayer, double targetX, double targetY)
     {
         // Hier implementiere die Logik für das Zielen und den Projektilwurf
 
         // Beispiel: Berechne den Winkel basierend auf Mausposition und Spielerposition
-        double deltaX = targetX - throwingPlayer.X;
-        double deltaY = targetY - throwingPlayer.Y;
-        double angleRadians = Math.Atan2(deltaY, deltaX);
-        double angleDegrees = angleRadians * (180 / Math.PI);
+        var deltaX = targetX - throwingPlayer.X;
+        var deltaY = targetY - throwingPlayer.Y;
+        var angleRadians = Math.Atan2(deltaY, deltaX);
+        var angleDegrees = angleRadians * (180 / Math.PI);
 
         // Beispiel: Berechne die Flugweite basierend auf dem Winkel und anderen Faktoren
         double velocity = 10; // Beispiel: Geschwindigkeit des Projektils
-        double gravity = 9.81; // Beispiel: Gravitationskonstante
-        double time = CalculateTime(deltaX, deltaY, velocity, gravity);
-        double distance = CalculateDistance(velocity, time);
+        var gravity = 9.81; // Beispiel: Gravitationskonstante
+        var time = CalculateTime(deltaY, gravity);
+        var distance = CalculateDistance(velocity, time);
 
         // Beispiel: Ausführen des Projektilwurfs basierend auf der berechneten Flugweite und des Winkels
-        ThrowProjectile(throwingPlayer, distance, angleDegrees);
+        ThrowProjectile();
     }
 
-    private double CalculateDistance(double velocity, double time)
+    private static double CalculateDistance(double velocity, double time)
     {
         // Beispiel: Berechne die Flugweite basierend auf der Geschwindigkeit und der Zeit
         return velocity * time;
     }
 
-    private double CalculateTime(double deltaX, double deltaY, double velocity, double gravity)
+    private static double CalculateTime(double deltaY, double gravity)
     {
         // Beispiel: Berechne die Flugzeit basierend auf der Geschwindigkeit und der Gravitation
         return Math.Sqrt((2 * deltaY) / gravity);
     }
 
-    private void ThrowProjectile(Player throwingPlayer, double distance, double angleDegrees)
+    private static void ThrowProjectile()
     {
         // Hier implementiere die tatsächliche Logik für den Projektilwurf
         // Beispiel: Führe den Wurf basierend auf der berechneten Flugweite und des Winkels aus

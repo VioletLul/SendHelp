@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SendHelp.Core.Services;
 
-public class FileService : IFileService
+public abstract class FileService : IFileService
 {
     public void Delete(string folderPath, string fileName)
     {

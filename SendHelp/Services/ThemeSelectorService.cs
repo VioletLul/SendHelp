@@ -6,7 +6,7 @@ using System.Windows;
 
 namespace SendHelp.Services;
 
-public class ThemeSelectorService : IThemeSelectorService
+public abstract class ThemeSelectorService : IThemeSelectorService
 {
     private const string HcDarkTheme = "pack://application:,,,/Styles/Themes/HC.Dark.Blue.xaml";
     private const string HcLightTheme = "pack://application:,,,/Styles/Themes/HC.Light.Blue.xaml";

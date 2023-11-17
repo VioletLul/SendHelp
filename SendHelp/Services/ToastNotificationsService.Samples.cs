@@ -1,11 +1,6 @@
-﻿using CommunityToolkit.WinUI.Notifications;
+﻿namespace SendHelp.Services;
 
-using Windows.Data.Xml.Dom;
-using Windows.UI.Notifications;
-
-namespace SendHelp.Services;
-
-public partial class ToastNotificationsService
+public abstract partial class ToastNotificationsService
 {
     public void ShowToastNotificationSample()
     {
@@ -15,7 +10,7 @@ public partial class ToastNotificationsService
              // More about the Launch property at https://docs.microsoft.com/dotnet/api/communitytoolkit.winui.notifications.toastcontent
              Launch = "ToastContentActivationParams",
 
-             /*Visual = new ToastVisual()
+             Visual = new ToastVisual()
              {
                  BindingGeneric = new ToastBindingGeneric()
                  {

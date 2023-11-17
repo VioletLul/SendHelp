@@ -6,7 +6,7 @@ using System.IO;
 
 namespace SendHelp.Services;
 
-public class PersistAndRestoreService : IPersistAndRestoreService
+public abstract class PersistAndRestoreService : IPersistAndRestoreService
 {
     private readonly AppConfig _appConfig;
     private readonly IFileService _fileService;
