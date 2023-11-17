@@ -4,7 +4,7 @@ using System.Windows.Input;
 
 namespace SendHelp.Views;
 
-public partial class MainPage : UserControl
+public partial class MainPage
 {
     public MainPage()
     {
