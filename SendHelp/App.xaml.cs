@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using System.IO;
+﻿using System.IO;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
@@ -9,7 +8,6 @@ using CommunityToolkit.WinUI.Notifications;
 using Microsoft.Extensions.Configuration;
 
 using Prism.Ioc;
-using Prism.Mvvm;
 using Prism.Unity;
 
 using SendHelp.Constants;
@@ -133,15 +131,15 @@ public partial class App : PrismApplication
             .Build();
     }
 
-    private void OnExit(object sender, ExitEventArgs e)
-    {
-        var persistAndRestoreService = Container.Resolve<IPersistAndRestoreService>();
-        persistAndRestoreService.PersistData();
-    }
-
     private void OnDispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
     {
         // TODO: Please log and handle the exception as appropriate to your scenario
         // For more info see https://docs.microsoft.com/dotnet/api/system.windows.application.dispatcherunhandledexception?view=netcore-3.0
+    }
+
+    private void OnExit(object sender, ExitEventArgs e)
+    {
+        var persistAndRestoreService = Container.Resolve<IPersistAndRestoreService>();
+        persistAndRestoreService.PersistData();
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Prism.Regions;
 
-public static class IRegionNavigationServiceExtensions
+public static class RegionNavigationServiceExtensions
 {
     public static bool CanNavigate(this IRegionNavigationService navigationService, string target)
     {

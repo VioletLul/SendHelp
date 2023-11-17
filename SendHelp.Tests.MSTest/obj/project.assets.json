@@ -72,6 +72,35 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "HtmlRenderer.Core/1.5.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/HtmlRenderer.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "HtmlRenderer.WinForms/1.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "HtmlRenderer.Core": "1.5.0.5"
+        },
+        "compile": {
+          "lib/net45/HtmlRenderer.WinForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/HtmlRenderer.WinForms.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "MahApps.Metro/2.4.9": {
         "type": "package",
         "dependencies": {
@@ -2402,6 +2431,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CommunityToolkit.WinUI.Notifications": "7.1.2",
+          "HtmlRenderer.WinForms": "1.5.0.6",
           "MahApps.Metro": "2.4.9",
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
@@ -2424,6 +2454,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HtmlRenderer.WinForms": "1.5.0.6",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -2575,6 +2606,47 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.1.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "HtmlRenderer.Core/1.5.0.5": {
+      "sha512": "QfZkSOb8HomRkKW3EAjT/VT48x6q+bgK4IBA9gFF+5FVTbvmMEIm42NsXEx/LTBHMssnQTPe94X0Bi8KdUIVQA==",
+      "type": "package",
+      "path": "htmlrenderer.core/1.5.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlrenderer.core.1.5.0.5.nupkg.sha512",
+        "htmlrenderer.core.nuspec",
+        "lib/net20/HtmlRenderer.dll",
+        "lib/net20/HtmlRenderer.pdb",
+        "lib/net30/HtmlRenderer.dll",
+        "lib/net30/HtmlRenderer.pdb",
+        "lib/net35-client/HtmlRenderer.dll",
+        "lib/net35-client/HtmlRenderer.pdb",
+        "lib/net40-client/HtmlRenderer.dll",
+        "lib/net40-client/HtmlRenderer.pdb",
+        "lib/net45/HtmlRenderer.dll",
+        "lib/net45/HtmlRenderer.pdb"
+      ]
+    },
+    "HtmlRenderer.WinForms/1.5.0.6": {
+      "sha512": "yaaiNW2nMWQa9cwocR7jLy9/+3g/TomMszODWm8z9DCWxIYz6K5marKBw1YZHnpKA6xS/LQYB2YEikE1OqDQ8Q==",
+      "type": "package",
+      "path": "htmlrenderer.winforms/1.5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlrenderer.winforms.1.5.0.6.nupkg.sha512",
+        "htmlrenderer.winforms.nuspec",
+        "lib/net20/HtmlRenderer.WinForms.dll",
+        "lib/net20/HtmlRenderer.WinForms.pdb",
+        "lib/net35-client/HtmlRenderer.WinForms.dll",
+        "lib/net35-client/HtmlRenderer.WinForms.pdb",
+        "lib/net40-client/HtmlRenderer.WinForms.dll",
+        "lib/net40-client/HtmlRenderer.WinForms.pdb",
+        "lib/net45/HtmlRenderer.WinForms.dll",
+        "lib/net45/HtmlRenderer.WinForms.pdb",
+        "readme.txt"
       ]
     },
     "MahApps.Metro/2.4.9": {
@@ -8037,6 +8109,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows10.0.19041": [
+      "HtmlRenderer.WinForms >= 1.5.0.6",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -8052,11 +8125,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
+      "projectUniqueName": "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
       "projectName": "SendHelp.Tests.MSTest",
-      "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
+      "projectPath": "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
       "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
-      "outputPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Tests.MSTest\\obj\\",
+      "outputPath": "D:\\SendHelp\\SendHelp.Tests.MSTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8078,8 +8151,8 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj": {
-              "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj"
+            "D:\\SendHelp\\SendHelp\\SendHelp.csproj": {
+              "projectPath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj"
             }
           }
         }
@@ -8094,6 +8167,10 @@
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
         "dependencies": {
+          "HtmlRenderer.WinForms": {
+            "target": "Package",
+            "version": "[1.5.0.6, )"
+          },
           "MSTest.TestAdapter": {
             "target": "Package",
             "version": "[2.2.8, )"
@@ -8144,5 +8221,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.Core 1.5.0.5' was restored using 'UAP,Version=v10.0.18362, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows10.0.19041'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.Core",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.WinForms 1.5.0.6' was restored using 'UAP,Version=v10.0.18362, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows10.0.19041'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.WinForms",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    }
+  ]
 }

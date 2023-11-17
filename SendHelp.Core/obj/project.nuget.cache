@@ -1,12 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "eZLbedQw7k6gmNdj8sMfISqmgvFwn0AaExRvRVPana/Lk/srx2qHe0k5A4Z4go2RpCGqPMtCaUVJj92+L8AILg==",
+  "dgSpecHash": "2SdykopTDsbxxjmC/mGi07l82M6wvgPqoasdEDicu9CbTQRhuSqS9RT7Ie6Wy3PDjyMEITrTof1ZlH9qT3sfyQ==",
   "success": true,
-  "projectFilePath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+  "projectFilePath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\roesser\\.nuget\\packages\\htmlrenderer.core\\1.5.0.5\\htmlrenderer.core.1.5.0.5.nupkg.sha512",
+    "C:\\Users\\roesser\\.nuget\\packages\\htmlrenderer.winforms\\1.5.0.6\\htmlrenderer.winforms.1.5.0.6.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.Core 1.5.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.Core",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.WinForms 1.5.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.WinForms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

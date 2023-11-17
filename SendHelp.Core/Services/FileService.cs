@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Text;
+﻿using System.Text;
 
 using Newtonsoft.Json;
 
@@ -9,6 +8,14 @@ namespace SendHelp.Core.Services;
 
 public class FileService : IFileService
 {
+    public void Delete(string folderPath, string fileName)
+    {
+        if (fileName != null && File.Exists(Path.Combine(folderPath, fileName)))
+        {
+            File.Delete(Path.Combine(folderPath, fileName));
+        }
+    }
+
     public T Read<T>(string folderPath, string fileName)
     {
         var path = Path.Combine(folderPath, fileName);
@@ -30,13 +37,5 @@ public class FileService : IFileService
 
         var fileContent = JsonConvert.SerializeObject(content);
         File.WriteAllText(Path.Combine(folderPath, fileName), fileContent, Encoding.UTF8);
-    }
-
-    public void Delete(string folderPath, string fileName)
-    {
-        if (fileName != null && File.Exists(Path.Combine(folderPath, fileName)))
-        {
-            File.Delete(Path.Combine(folderPath, fileName));
-        }
     }
 }

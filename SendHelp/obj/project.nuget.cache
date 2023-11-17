@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7ndv4nAQbZ6r4PgM/l/zantcWwuhjHWPeZXqZ0gL6WcEca3It8+jWT6qE/MAKrQyXrUkgNDb3T4X3zWX/+2OTA==",
+  "dgSpecHash": "fwaFCBXlVIsgjomnLzBd8F1b+eZoUtOCpjkECq8mqdeG+CI+fGgSHOVt4OOHye6ux5ok9P1BBjGZkF/jv5x9Vw==",
   "success": true,
-  "projectFilePath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+  "projectFilePath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roesser\\.nuget\\packages\\communitytoolkit.winui.notifications\\7.1.2\\communitytoolkit.winui.notifications.7.1.2.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\roesser\\.nuget\\packages\\htmlrenderer.core\\1.5.0.5\\htmlrenderer.core.1.5.0.5.nupkg.sha512",
+    "C:\\Users\\roesser\\.nuget\\packages\\htmlrenderer.winforms\\1.5.0.6\\htmlrenderer.winforms.1.5.0.6.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -38,5 +40,26 @@
     "C:\\Users\\roesser\\.nuget\\packages\\unity.container\\5.11.11\\unity.container.5.11.11.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.Core 1.5.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows10.0.19041'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.Core",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.WinForms 1.5.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows10.0.19041'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.WinForms",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    }
+  ]
 }

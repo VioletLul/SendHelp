@@ -9,8 +9,8 @@ namespace SendHelp.Services;
 
 public class PersistAndRestoreService : IPersistAndRestoreService
 {
-    private readonly IFileService _fileService;
     private readonly AppConfig _appConfig;
+    private readonly IFileService _fileService;
     private readonly string _localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
     public PersistAndRestoreService(IFileService fileService, AppConfig appConfig)
@@ -38,7 +38,13 @@ public class PersistAndRestoreService : IPersistAndRestoreService
         {
             foreach (DictionaryEntry property in properties)
             {
-                App.Current.Properties.Add(property.Key, property.Value);
+                if (property.Value != null)
+                {
+                }
+                else
+                {
+                    App.Current.Properties.Add(property.Key, property.Value);
+                }
             }
         }
     }

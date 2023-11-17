@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj": {}
+    "D:\\SendHelp\\SendHelp\\SendHelp.csproj": {}
   },
   "projects": {
-    "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+    "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
         "projectName": "SendHelp.Core",
-        "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
         "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
-        "outputPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\obj\\",
+        "outputPath": "D:\\SendHelp\\SendHelp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "HtmlRenderer.WinForms": {
+              "target": "Package",
+              "version": "[1.5.0.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -71,14 +75,14 @@
         }
       }
     },
-    "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj": {
+    "D:\\SendHelp\\SendHelp\\SendHelp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
         "projectName": "SendHelp",
-        "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+        "projectPath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
         "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
-        "outputPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\obj\\",
+        "outputPath": "D:\\SendHelp\\SendHelp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +104,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
-                "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
+              "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+                "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
               }
             }
           }
@@ -119,6 +123,10 @@
             "CommunityToolkit.WinUI.Notifications": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "HtmlRenderer.WinForms": {
+              "target": "Package",
+              "version": "[1.5.0.6, )"
             },
             "MahApps.Metro": {
               "target": "Package",

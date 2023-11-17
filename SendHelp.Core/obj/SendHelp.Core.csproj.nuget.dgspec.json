@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {}
+    "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {}
   },
   "projects": {
-    "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+    "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
         "projectName": "SendHelp.Core",
-        "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
         "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
-        "outputPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\obj\\",
+        "outputPath": "D:\\SendHelp\\SendHelp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "HtmlRenderer.WinForms": {
+              "target": "Package",
+              "version": "[1.5.0.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

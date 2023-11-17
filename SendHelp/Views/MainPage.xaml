@@ -17,10 +17,13 @@
             Style="{StaticResource PageTitleStyle}"
             Margin="{StaticResource MediumLeftMargin}"
             Text="{x:Static properties:Resources.MainPageTitle}" />
-        <Grid
+        <Grid x:Name="grid"
             Grid.Row="1"
             Margin="{StaticResource MediumLeftRightMargin}"
-            Background="{DynamicResource MahApps.Brushes.Gray10}">
+            Background="{DynamicResource MahApps.Brushes.Gray10}" MouseLeftButtonUp="Grid_OnMouseLeftButtonUp">
+            <Button x:Name="Button" IsEnabled="False" Visibility="Hidden" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Height="20" RenderTransformOrigin="0.5,0.5" Width="0" Margin="10,10,0,0">
+            </Button>
+
             <!--
             The Mahapps Gray10 color represents where you should place your content.
             Place your content here.
