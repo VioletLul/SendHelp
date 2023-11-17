@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="403*" />
             </Grid.ColumnDefinitions>
             <Button x:Name="ButtonProjectile" Height="5" Width="20" Visibility="Visible" IsEnabled="False" />
-            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,42">
+            <StackPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,42">
                 <Button BorderBrush="Black" Background="BlueViolet"  Width="80" Height="25" Command="{Binding ButtonCommand2}" />
                 <Label Height="25" Width="80" Content="Spieler 1" />
             </StackPanel>
