@@ -18,8 +18,6 @@ public abstract class MainViewModel : ViewModelBase
         ThrowRectangleCommand = new RelayCommand(ThrowRectangle);
     }
 
-    // INotifyPropertyChanged-Implementierung
-
     public ICommand ButtonCommand { get; }
     public ICommand ButtonCommand2 { get; set; }
     public ICommand ThrowRectangleCommand { get; }
@@ -34,9 +32,6 @@ public abstract class MainViewModel : ViewModelBase
 
     private void ThrowRectangle()
     {
-        var playerA = new Player { Points = 5 };
-        var playerB = new Player { Points = 0 };
-
-        GameModel.AimAndThrowProjectile(playerA, 55, 55);
+        var playerA = new Player { Points = 0 };
     }
 }
