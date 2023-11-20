@@ -1,12 +1,12 @@
-﻿using Prism.Mvvm;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
-using GalaSoft;
-using GalaSoft.MvvmLight.CommandWpf;
+using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
+using SendHelp.Views;
 
 namespace SendHelp.ViewModels;
 
-public class MainViewModel : BindableBase
+public class MainViewModel : ViewModelBase
 {
     public MainViewModel()
     {

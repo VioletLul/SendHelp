@@ -12,8 +12,8 @@ public partial class ShellWindow : MetroWindow
     public ShellWindow(IRegionManager regionManager, IRightPaneService rightPaneService)
     {
         InitializeComponent();
-        RegionManager.SetRegionName(menuContentControl, Regions.Main);
-        RegionManager.SetRegionManager(menuContentControl, regionManager);
-        rightPaneService.Initialize(splitView, rightPaneContentControl);
+        RegionManager.SetRegionName(MenuContentControl, Regions.Main);
+        RegionManager.SetRegionManager(MenuContentControl, regionManager);
+        rightPaneService.Initialize(SplitView, RightPaneContentControl);
     }
 }

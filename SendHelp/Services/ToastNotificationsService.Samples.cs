@@ -5,7 +5,7 @@ using Windows.UI.Notifications;
 
 namespace SendHelp.Services;
 
-public partial class ToastNotificationsService
+/*public partial class ToastNotificationsService
 {
     public void ShowToastNotificationSample()
     {
@@ -62,4 +62,4 @@ public partial class ToastNotificationsService
         // And show the toast
         ShowToastNotification(toast);
     }
-}
+}*/

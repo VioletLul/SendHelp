@@ -6,7 +6,7 @@ using Windows.UI.Notifications;
 
 namespace SendHelp.Services;
 
-public partial class ToastNotificationsService : IToastNotificationsService
+/*public partial class ToastNotificationsService : IToastNotificationsService
 {
     public ToastNotificationsService()
     {
@@ -16,4 +16,4 @@ public partial class ToastNotificationsService : IToastNotificationsService
     {
         ToastNotificationManagerCompat.CreateToastNotifier().Show(toastNotification);
     }
-}
+}*/

@@ -36,7 +36,7 @@
     </controls:MetroWindow.LeftWindowCommands>
     <controls:MetroWindow.Content>
         <controls:SplitView
-            x:Name="splitView"
+            x:Name="SplitView"
             PanePlacement="Right"
             OpenPaneLength="400"
             Focusable="False">
@@ -45,7 +45,7 @@
                     BorderThickness="1,1,0,0"
                     BorderBrush="{DynamicResource MahApps.Brushes.Controls.Border}">
                     <ContentControl
-                        x:Name="rightPaneContentControl" />
+                        x:Name="RightPaneContentControl" />
                 </Border>
             </controls:SplitView.Pane>
             <controls:SplitView.Content>
@@ -65,7 +65,7 @@
                     </Menu>
                     <ContentControl
                         Grid.Row="1"
-                        x:Name="menuContentControl" />
+                        x:Name="MenuContentControl" />
                 </Grid>
             </controls:SplitView.Content>
         </controls:SplitView>

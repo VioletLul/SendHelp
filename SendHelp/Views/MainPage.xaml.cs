@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
@@ -13,10 +14,9 @@ public partial class MainPage
 
     private void Grid_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
     {
-        var mousePos = Mouse.GetPosition(grid);
+        var mousePos = Mouse.GetPosition(Button);
         var mousePosX = mousePos.X;
         var mousePosY = mousePos.Y;
-        MessageBox.Show(Convert.ToString("Y: " + mousePosY));
-        MessageBox.Show(Convert.ToString("X: " + mousePosX));
+        MessageBox.Show(Convert.ToString("Y: " + (int)mousePosY) + "\n" + Convert.ToString("X: " + (int)mousePosX));
     }
 }
