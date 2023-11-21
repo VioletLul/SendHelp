@@ -1,7 +1,4 @@
-﻿using System.Windows;
-using GalaSoft.MvvmLight;
-using SendHelp.Views;
-using static SendHelp.Views.MainPage;
+﻿using GalaSoft.MvvmLight;
 
 namespace SendHelp.ViewModels;
 
@@ -13,11 +10,6 @@ public class MainViewModel : ViewModelBase
 
     public void Calculate(int X, int Y)
     {
-        MessageBox.Show("Test");
-    }
-
-    public void CalculateDown(int X, int Y)
-    {
-        MessageBox.Show("Test");
+        var StärkeX = X + Y;
     }
 }

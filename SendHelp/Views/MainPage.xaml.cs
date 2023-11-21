@@ -1,5 +1,5 @@
-﻿using System.Windows.Input;
-using SendHelp.ViewModels;
+﻿using SendHelp.ViewModels;
+using System.Windows.Input;
 
 namespace SendHelp.Views;
 
@@ -10,13 +10,12 @@ public partial class MainPage
         InitializeComponent();
     }
 
-    private void Grid_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+    public void Grid_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
     {
-        MainViewModel calculationhandlerdown = new MainViewModel();
+        MainViewModel calculationhandler = new MainViewModel();
         var mouseDownPos = Mouse.GetPosition(Grid);
         var mouseDownPosX = (int)mouseDownPos.X;
         var mouseDownPosY = (int)mouseDownPos.Y;
-        calculationhandlerdown.CalculateDown(mouseDownPosX, mouseDownPosY);
     }
 
     private void Grid_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
