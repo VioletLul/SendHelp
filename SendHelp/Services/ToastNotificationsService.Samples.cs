@@ -1,9 +1,4 @@
-﻿using CommunityToolkit.WinUI.Notifications;
-
-using Windows.Data.Xml.Dom;
-using Windows.UI.Notifications;
-
-namespace SendHelp.Services;
+﻿namespace SendHelp.Services;
 
 /*public partial class ToastNotificationsService
 {

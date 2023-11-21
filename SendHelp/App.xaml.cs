@@ -1,15 +1,7 @@
-﻿using System.IO;
-using System.Reflection;
-using System.Windows;
-using System.Windows.Threading;
-
-using CommunityToolkit.WinUI.Notifications;
-
+﻿using CommunityToolkit.WinUI.Notifications;
 using Microsoft.Extensions.Configuration;
-
 using Prism.Ioc;
 using Prism.Unity;
-
 using SendHelp.Constants;
 using SendHelp.Contracts.Services;
 using SendHelp.Core.Contracts.Services;
@@ -18,6 +10,10 @@ using SendHelp.Models;
 using SendHelp.Services;
 using SendHelp.ViewModels;
 using SendHelp.Views;
+using System.IO;
+using System.Reflection;
+using System.Windows;
+using System.Windows.Threading;
 
 namespace SendHelp;
 

@@ -1,8 +1,6 @@
-﻿using System.Text;
-
-using Newtonsoft.Json;
-
+﻿using Newtonsoft.Json;
 using SendHelp.Core.Contracts.Services;
+using System.Text;
 
 namespace SendHelp.Core.Services;
 

@@ -1,9 +1,10 @@
-﻿using System.Collections;
-using System.IO;
-
-using SendHelp.Contracts.Services;
+﻿using SendHelp.Contracts.Services;
 using SendHelp.Core.Contracts.Services;
 using SendHelp.Models;
+using System.Collections;
+using System.IO;
+using System.Windows;
+//ReSharper disable all
 
 namespace SendHelp.Services;
 
@@ -21,11 +22,11 @@ public class PersistAndRestoreService : IPersistAndRestoreService
 
     public void PersistData()
     {
-        if (App.Current.Properties != null)
+        if (Application.Current.Properties != null)
         {
             var folderPath = Path.Combine(_localAppData, _appConfig.ConfigurationsFolder);
             var fileName = _appConfig.AppPropertiesFileName;
-            _fileService.Save(folderPath, fileName, App.Current.Properties);
+            _fileService.Save(folderPath, fileName, Application.Current.Properties);
         }
     }
 
@@ -43,7 +44,7 @@ public class PersistAndRestoreService : IPersistAndRestoreService
                 }
                 else
                 {
-                    App.Current.Properties.Add(property.Key, property.Value);
+                    Application.Current.Properties.Add(property.Key, property.Value);
                 }
             }
         }

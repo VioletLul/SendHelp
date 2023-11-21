@@ -1,8 +1,7 @@
 ﻿using System.Windows;
-using System.Windows.Input;
 using GalaSoft.MvvmLight;
-using GalaSoft.MvvmLight.Command;
 using SendHelp.Views;
+using static SendHelp.Views.MainPage;
 
 namespace SendHelp.ViewModels;
 
@@ -10,5 +9,15 @@ public class MainViewModel : ViewModelBase
 {
     public MainViewModel()
     {
+    }
+
+    public void Calculate(int X, int Y)
+    {
+        MessageBox.Show("Test");
+    }
+
+    public void CalculateDown(int X, int Y)
+    {
+        MessageBox.Show("Test");
     }
 }

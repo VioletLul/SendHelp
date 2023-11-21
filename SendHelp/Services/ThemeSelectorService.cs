@@ -1,21 +1,32 @@
-﻿using System.Windows;
-
-using ControlzEx.Theming;
-
+﻿using ControlzEx.Theming;
 using MahApps.Metro.Theming;
-
 using SendHelp.Contracts.Services;
 using SendHelp.Models;
+using System.Windows;
 
 namespace SendHelp.Services;
+//ReSharper disable all
 
 public class ThemeSelectorService : IThemeSelectorService
 {
     private const string HcDarkTheme = "pack://application:,,,/Styles/Themes/HC.Dark.Blue.xaml";
+
     private const string HcLightTheme = "pack://application:,,,/Styles/Themes/HC.Light.Blue.xaml";
 
     public ThemeSelectorService()
     {
+    }
+
+    public AppTheme GetCurrentTheme()
+    {
+        if (Application.Current.Properties.Contains("Theme"))
+        {
+            var themeName = Application.Current.Properties["Theme"].ToString();
+            Enum.TryParse(themeName, out AppTheme theme);
+            return theme;
+        }
+
+        return AppTheme.Default;
     }
 
     public void InitializeTheme()
@@ -44,18 +55,6 @@ public class ThemeSelectorService : IThemeSelectorService
             ThemeManager.Current.ChangeTheme(Application.Current, $"{theme}.Blue", SystemParameters.HighContrast);
         }
 
-        App.Current.Properties["Theme"] = theme.ToString();
-    }
-
-    public AppTheme GetCurrentTheme()
-    {
-        if (App.Current.Properties.Contains("Theme"))
-        {
-            var themeName = App.Current.Properties["Theme"].ToString();
-            Enum.TryParse(themeName, out AppTheme theme);
-            return theme;
-        }
-
-        return AppTheme.Default;
+        Application.Current.Properties["Theme"] = theme.ToString();
     }
 }

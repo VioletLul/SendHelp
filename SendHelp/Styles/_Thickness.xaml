@@ -26,5 +26,4 @@
 
     <!--Extra Extra Small size margins-->
     <Thickness x:Key="XxSmallTopMargin">0, 4, 0, 0</Thickness>
-
 </ResourceDictionary>
