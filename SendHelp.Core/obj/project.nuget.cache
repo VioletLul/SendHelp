@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eZLbedQw7k6gmNdj8sMfISqmgvFwn0AaExRvRVPana/Lk/srx2qHe0k5A4Z4go2RpCGqPMtCaUVJj92+L8AILg==",
+  "dgSpecHash": "gYqeWSriYiASWQLvY5xKBcIMLpbNIe6LLxrgITMKR5ZlyrNRZ4HmE3tk3PXUdDVGpZG7bTAljZb7zaAM4Bxk9Q==",
   "success": true,
-  "projectFilePath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+  "projectFilePath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roesser\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

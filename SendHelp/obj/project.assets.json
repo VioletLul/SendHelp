@@ -1591,11 +1591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+      "projectUniqueName": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
       "projectName": "SendHelp",
-      "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+      "projectPath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
       "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
-      "outputPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\obj\\",
+      "outputPath": "D:\\SendHelp\\SendHelp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1617,8 +1617,8 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
-              "projectPath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
+            "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+              "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
             }
           }
         }

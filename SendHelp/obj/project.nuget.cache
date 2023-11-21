@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ndv4nAQbZ6r4PgM/l/zantcWwuhjHWPeZXqZ0gL6WcEca3It8+jWT6qE/MAKrQyXrUkgNDb3T4X3zWX/+2OTA==",
+  "dgSpecHash": "2ITPdqUv3SZe4Wz5U0TAjvmt99KW8iz5y4ZMd41uuynyu5lxmy/nYgWRKFJtni/sVb7+wvrJ0mTL+PEgeekGOw==",
   "success": true,
-  "projectFilePath": "D:\\SendHelp.Tests.MSTest\\SendHelp\\SendHelp\\SendHelp.csproj",
+  "projectFilePath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roesser\\.nuget\\packages\\communitytoolkit.winui.notifications\\7.1.2\\communitytoolkit.winui.notifications.7.1.2.nupkg.sha512",
     "C:\\Users\\roesser\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
