@@ -24,6 +24,6 @@ public partial class MainPage
         var mousePos = Mouse.GetPosition(Grid);
         var mousePosX = (int)mousePos.X;
         var mousePosY = (int)mousePos.Y;
-        calculationhandler.Calculate(mousePosX, mousePosY);
+        MainViewModel.Calculate(mousePosX, mousePosY);
     }
 }

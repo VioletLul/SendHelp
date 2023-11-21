@@ -8,8 +8,8 @@ public class MainViewModel : ViewModelBase
     {
     }
 
-    public void Calculate(int X, int Y)
+    public static void Calculate(int x, int y)
     {
-        var StärkeX = X + Y;
+        var stärkeX = x + y;
     }
 }
