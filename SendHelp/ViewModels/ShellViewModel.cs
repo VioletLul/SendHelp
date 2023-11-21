@@ -3,7 +3,6 @@ using Prism.Mvvm;
 using Prism.Regions;
 using SendHelp.Constants;
 using SendHelp.Contracts.Services;
-using SendHelp.Helpers;
 using System.Windows;
 using System.Windows.Input;
 
@@ -13,7 +12,7 @@ namespace SendHelp.ViewModels;
 // using the NavigationService, RightPaneService and WindowManagerService.
 // Read more about MenuBar project type here:
 // https://github.com/microsoft/TemplateStudio/blob/main/docs/WPF/projectTypes/menubar.md
-public abstract class ShellViewModel : BindableBase
+public class ShellViewModel : BindableBase
 {
     private readonly IRegionManager _regionManager;
     private readonly IRightPaneService _rightPaneService;

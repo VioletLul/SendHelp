@@ -1,6 +1,6 @@
 ﻿namespace SendHelp.Constants;
 
-public abstract class Regions
+public class Regions
 {
     public const string Main = "MainRegion";
 

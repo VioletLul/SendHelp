@@ -10,8 +10,7 @@
 
 namespace SendHelp.Properties {
     using System;
-    
-    
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,19 +18,19 @@ namespace SendHelp.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +44,7 @@ namespace SendHelp.Properties {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,67 +58,71 @@ namespace SendHelp.Properties {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to SendHelp.
+        ///   Looks up a localized string similar to ts.ItemName.
         /// </summary>
         public static string AppDisplayName {
             get {
                 return ResourceManager.GetString("AppDisplayName", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Main.
-        /// </summary>
-        public static string MainPageTitle {
-            get {
-                return ResourceManager.GetString("MainPageTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Go back.
+        ///   Looks up a localized string similar to ShellGoBackButton.
         /// </summary>
         public static string ShellGoBackButton {
             get {
                 return ResourceManager.GetString("ShellGoBackButton", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to _File.
+        ///   Looks up a localized string similar to MenuFileHeader.
         /// </summary>
         public static string ShellMenuFileHeader {
             get {
                 return ResourceManager.GetString("ShellMenuFileHeader", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to _Exit.
+        ///   Looks up a localized string similar to MenuViewsHeader.
+        /// </summary>
+        public static string ShellMenuViewsHeader {
+            get {
+                return ResourceManager.GetString("ShellMenuViewsHeader", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to MenuItemFileExitHeader.
         /// </summary>
         public static string ShellMenuItemFileExitHeader {
             get {
                 return ResourceManager.GetString("ShellMenuItemFileExitHeader", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Main.
         /// </summary>
-        public static string ShellMenuItemViewsMainPageHeader {
-            get {
-                return ResourceManager.GetString("ShellMenuItemViewsMainPageHeader", resourceCulture);
+        public static string MainPageTitle
+        {
+            get
+            {
+                return ResourceManager.GetString("MainPageTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to _App.
+        ///   Looks up a localized string similar to MenuItemViewsMainPageHeader.
         /// </summary>
-        public static string ShellMenuViewsHeader {
-            get {
-                return ResourceManager.GetString("ShellMenuViewsHeader", resourceCulture);
+        public static string ShellMenuItemViewsMainPageHeader
+        {
+            get
+            {
+                return ResourceManager.GetString("ShellMenuItemViewsMainPageHeader", resourceCulture);
             }
         }
     }

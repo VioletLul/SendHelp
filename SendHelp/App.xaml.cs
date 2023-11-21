@@ -65,8 +65,8 @@ public partial class App : PrismApplication
             });
         };
 
-        var toastNotificationsService = Container.Resolve<IToastNotificationsService>();
-        toastNotificationsService.ShowToastNotificationSample();
+        /*var toastNotificationsService = Container.Resolve<IToastNotificationsService>();*/
+        /*toastNotificationsService.ShowToastNotificationSample();*/
 
         if (ToastNotificationManagerCompat.WasCurrentProcessToastActivated())
         {
@@ -91,7 +91,7 @@ public partial class App : PrismApplication
 
         // App Services
         containerRegistry.Register<IThemeSelectorService, ThemeSelectorService>();
-        containerRegistry.RegisterSingleton<IToastNotificationsService, ToastNotificationsService>();
+        /*containerRegistry.RegisterSingleton<IToastNotificationsService, ToastNotificationsService>();*/
         containerRegistry.Register<IPersistAndRestoreService, PersistAndRestoreService>();
         containerRegistry.RegisterSingleton<IRightPaneService, RightPaneService>();
 

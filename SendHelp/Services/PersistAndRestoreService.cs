@@ -3,10 +3,13 @@ using SendHelp.Core.Contracts.Services;
 using SendHelp.Models;
 using System.Collections;
 using System.IO;
+using System.Windows;
+
+//ReSharper disable all
 
 namespace SendHelp.Services;
 
-public abstract class PersistAndRestoreService : IPersistAndRestoreService
+public class PersistAndRestoreService : IPersistAndRestoreService
 {
     private readonly AppConfig _appConfig;
     private readonly IFileService _fileService;
@@ -20,11 +23,11 @@ public abstract class PersistAndRestoreService : IPersistAndRestoreService
 
     public void PersistData()
     {
-        if (App.Current.Properties != null)
+        if (Application.Current.Properties != null)
         {
             var folderPath = Path.Combine(_localAppData, _appConfig.ConfigurationsFolder);
             var fileName = _appConfig.AppPropertiesFileName;
-            _fileService.Save(folderPath, fileName, App.Current.Properties);
+            _fileService.Save(folderPath, fileName, Application.Current.Properties);
         }
     }
 
@@ -37,12 +40,12 @@ public abstract class PersistAndRestoreService : IPersistAndRestoreService
         {
             foreach (DictionaryEntry property in properties)
             {
-                if ((string)property.Value == "Default")
+                if (property.Value != null)
                 {
                 }
                 else
                 {
-                    App.Current.Properties.Add(property.Key, property.Value);
+                    Application.Current.Properties.Add(property.Key, property.Value);
                 }
             }
         }

@@ -1,6 +1,6 @@
 ﻿namespace SendHelp.Constants;
 
-public abstract class PageKeys
+public class PageKeys
 {
     public const string Main = "Main";
 }

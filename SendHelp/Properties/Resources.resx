@@ -13,7 +13,7 @@
         <value>_File</value>
     </data>
     <data name="ShellMenuViewsHeader" xml:space="preserve">
-        <value>_App</value>
+        <value>_Views</value>
     </data>
     <data name="ShellMenuItemFileExitHeader" xml:space="preserve">
         <value>_Exit</value>
