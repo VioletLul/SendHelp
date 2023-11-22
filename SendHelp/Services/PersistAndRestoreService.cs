@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using System.IO;
-using System.Windows;
-using SendHelp.Contracts.Services;
+﻿using SendHelp.Contracts.Services;
 using SendHelp.Core.Contracts.Services;
 using SendHelp.Models;
+using System.Collections;
+using System.IO;
+using System.Windows;
 
 namespace SendHelp.Services;
 
@@ -40,22 +40,14 @@ public class PersistAndRestoreService : IPersistAndRestoreService
             {
                 if (property.Value != null)
                 {
-<<<<<<< Updated upstream
+                }
+                else
+                {
+                    App.Current.Properties.Add(property.Key, property.Value);
+                }
 
-                }
-                else
-                {
-                  App.Current.Properties.Add(property.Key, property.Value);  
-                }
-                
-=======
-                }
-                else
-                {
-                    Application.Current.Properties.Add(property.Key, property.Value);
-                }
->>>>>>> Stashed changes
             }
         }
     }
+        
 }

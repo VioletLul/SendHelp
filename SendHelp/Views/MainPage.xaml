@@ -20,15 +20,15 @@
         <Grid KeyDown="OnKeyDown"
             Grid.Row="1"
             Margin="{StaticResource MediumLeftRightMargin}"
-<<<<<<< Updated upstream
+
             Background="{DynamicResource MahApps.Brushes.SystemControlDisabledChromeDisabledLow}">
             <!--The Mahapps Gray10 color represents where you should place your content.
             Place your content here.
             -->
-=======
-            Background="{DynamicResource MahApps.Brushes.SystemControlBackgroundChromeBlackMediumLow}">
+
+            
             <Button Height="25" Width="25" RenderTransformOrigin="0.5,0.5"></Button>
->>>>>>> Stashed changes
+
         </Grid>
     </Grid>
 </UserControl>

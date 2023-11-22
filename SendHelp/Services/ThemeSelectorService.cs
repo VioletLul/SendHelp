@@ -1,11 +1,8 @@
-﻿using System.Windows;
-
-using ControlzEx.Theming;
-
+﻿using ControlzEx.Theming;
 using MahApps.Metro.Theming;
-
 using SendHelp.Contracts.Services;
 using SendHelp.Models;
+using System.Windows;
 
 namespace SendHelp.Services;
 
