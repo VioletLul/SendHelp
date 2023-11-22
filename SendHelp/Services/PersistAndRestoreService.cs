@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.IO;
-
+using System.Windows;
 using SendHelp.Contracts.Services;
 using SendHelp.Core.Contracts.Services;
 using SendHelp.Models;
@@ -9,8 +9,8 @@ namespace SendHelp.Services;
 
 public class PersistAndRestoreService : IPersistAndRestoreService
 {
-    private readonly IFileService _fileService;
     private readonly AppConfig _appConfig;
+    private readonly IFileService _fileService;
     private readonly string _localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
     public PersistAndRestoreService(IFileService fileService, AppConfig appConfig)
@@ -21,11 +21,11 @@ public class PersistAndRestoreService : IPersistAndRestoreService
 
     public void PersistData()
     {
-        if (App.Current.Properties != null)
+        if (Application.Current.Properties != null)
         {
             var folderPath = Path.Combine(_localAppData, _appConfig.ConfigurationsFolder);
             var fileName = _appConfig.AppPropertiesFileName;
-            _fileService.Save(folderPath, fileName, App.Current.Properties);
+            _fileService.Save(folderPath, fileName, Application.Current.Properties);
         }
     }
 
@@ -40,6 +40,7 @@ public class PersistAndRestoreService : IPersistAndRestoreService
             {
                 if (property.Value != null)
                 {
+<<<<<<< Updated upstream
 
                 }
                 else
@@ -47,6 +48,13 @@ public class PersistAndRestoreService : IPersistAndRestoreService
                   App.Current.Properties.Add(property.Key, property.Value);  
                 }
                 
+=======
+                }
+                else
+                {
+                    Application.Current.Properties.Add(property.Key, property.Value);
+                }
+>>>>>>> Stashed changes
             }
         }
     }
