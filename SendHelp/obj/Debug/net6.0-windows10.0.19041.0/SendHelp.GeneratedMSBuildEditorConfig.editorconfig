@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SendHelp
-build_property.ProjectDir = D:\SendHelp\SendHelp\
+build_property.ProjectDir = C:\Users\Jroes\Desktop\GitHub Repos\SendHelp\SendHelp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
