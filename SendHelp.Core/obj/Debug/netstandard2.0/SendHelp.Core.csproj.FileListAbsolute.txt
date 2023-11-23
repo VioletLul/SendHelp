@@ -8,3 +8,4 @@ D:\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.AssemblyInfo.cs
 D:\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.csproj.CoreCompileInputs.cache
 D:\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.dll
 D:\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.pdb
+D:\SendHelp\SendHelp.Core\obj\Debug\netstandard2.0\SendHelp.Core.sourcelink.json

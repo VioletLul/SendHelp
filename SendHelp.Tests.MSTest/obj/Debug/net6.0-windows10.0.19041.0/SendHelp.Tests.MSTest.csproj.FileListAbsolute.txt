@@ -129,3 +129,4 @@ D:\SendHelp\SendHelp.Tests.MSTest\obj\Debug\net6.0-windows10.0.19041.0\refint\Se
 D:\SendHelp\SendHelp.Tests.MSTest\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.Tests.MSTest.pdb
 D:\SendHelp\SendHelp.Tests.MSTest\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.Tests.MSTest.genruntimeconfig.cache
 D:\SendHelp\SendHelp.Tests.MSTest\obj\Debug\net6.0-windows10.0.19041.0\ref\SendHelp.Tests.MSTest.dll
+D:\SendHelp\SendHelp.Tests.MSTest\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.Tests.MSTest.sourcelink.json

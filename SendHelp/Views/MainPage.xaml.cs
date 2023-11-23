@@ -1,7 +1,8 @@
+using SendHelp.ViewModels;
+
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using SendHelp.ViewModels;
 
 namespace SendHelp.Views;
 
@@ -12,13 +13,14 @@ public partial class MainPage : UserControl
         InitializeComponent();
     }
 
+    private void Image_OnImageFailed(object sender, ExceptionRoutedEventArgs e)
+    {
+        MessageBox.Show("Bild konnte nicht geladen werden. \nSorry...");
+    }
+
     private void OnKeyDown(object sender, KeyEventArgs e)
     {
-        switch (e.Key)
-        {
-            case Key.Left:
-                MessageBox.Show("Test");
-                break;
-        }
+        MainViewModel help = new();
+        help.Arrows(e);
     }
 }

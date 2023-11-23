@@ -15,37 +15,37 @@ public partial class ToastNotificationsService
             // More about the Launch property at https://docs.microsoft.com/dotnet/api/communitytoolkit.winui.notifications.toastcontent
             Launch = "ToastContentActivationParams",
 
-            Visual = new ToastVisual()
+            Visual = new()
             {
-                BindingGeneric = new ToastBindingGeneric()
+                BindingGeneric = new()
                 {
                     Children =
-                    {
-                        new AdaptiveText()
-                        {
-                            Text = "Sample Toast Notification"
-                        },
+                     {
+                         new AdaptiveText()
+                         {
+                             Text = "Sample Toast Notification"
+                         },
 
-                        new AdaptiveText()
-                        {
-                             Text = @"Click OK to see how activation from a toast notification can be handled in the ToastNotificationService."
-                        }
-                    }
+                         new AdaptiveText()
+                         {
+                              Text = @"Click OK to see how activation from a toast notification can be handled in the ToastNotificationService."
+                         }
+                     }
                 }
             },
 
             Actions = new ToastActionsCustom()
             {
                 Buttons =
-                {
-                    // More about Toast Buttons at https://docs.microsoft.com/dotnet/api/communitytoolkit.winui.notifications.toastbutton
-                    new ToastButton("OK", "ToastButtonActivationArguments")
-                    {
-                        ActivationType = ToastActivationType.Foreground
-                    },
+                 {
+                     // More about Toast Buttons at https://docs.microsoft.com/dotnet/api/communitytoolkit.winui.notifications.toastbutton
+                     new ToastButton("OK", "ToastButtonActivationArguments")
+                     {
+                         ActivationType = ToastActivationType.Foreground
+                     },
 
-                    new ToastButtonDismiss("Cancel")
-                }
+                     new ToastButtonDismiss("Cancel")
+                 }
             }
         };
 

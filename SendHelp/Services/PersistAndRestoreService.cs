@@ -45,9 +45,7 @@ public class PersistAndRestoreService : IPersistAndRestoreService
                 {
                     App.Current.Properties.Add(property.Key, property.Value);
                 }
-
             }
         }
     }
-        
 }

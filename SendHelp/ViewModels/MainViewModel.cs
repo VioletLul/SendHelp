@@ -1,33 +1,43 @@
-
-using System.Windows;
-
-using System.Security.Cryptography.Xml;
-using System.Windows;
-using System.Windows.Controls;
-
-using System.Windows.Input;
+using System.ComponentModel;
 using Prism.Mvvm;
+
+using System.Windows;
+using System.Windows.Input;
+using ABI.Windows.Foundation.Collections;
 
 namespace SendHelp.ViewModels;
 
-public class MainViewModel : BindableBase
+public class MainViewModel : BindableBase, INotifyPropertyChanged
 {
-    public MainViewModel()
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    public double Angle(double _angle)
     {
+        OnPropertyChanged(nameof(Angle));
+        return _angle;
     }
 
-    public static void Arrows(KeyEventArgs e)
+    public void Arrows(KeyEventArgs e)
     {
+        double angle = 0;
+
         switch (e.Key)
         {
-            case Key.Right:
-                MessageBox.Show("TestRight");
+            case Key.RightShift:
+                angle = +45;
                 break;
 
-            case Key.Left:
-                MessageBox.Show("TestLeft");
+            case Key.LeftShift:
+                angle = -45;
                 break;
-
         }
+
+        Angle(angle);
     }
-}    
+
+    // TODO: Data Binding richtig hinbekommen sonst Schläge uwu :3
+    protected virtual void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+}

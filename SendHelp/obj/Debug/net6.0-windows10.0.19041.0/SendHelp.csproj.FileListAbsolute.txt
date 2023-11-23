@@ -58,3 +58,4 @@ D:\SendHelp\SendHelp\obj\Debug\net6.0-windows10.0.19041.0\refint\SendHelp.dll
 D:\SendHelp\SendHelp\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.pdb
 D:\SendHelp\SendHelp\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.genruntimeconfig.cache
 D:\SendHelp\SendHelp\obj\Debug\net6.0-windows10.0.19041.0\ref\SendHelp.dll
+D:\SendHelp\SendHelp\obj\Debug\net6.0-windows10.0.19041.0\SendHelp.sourcelink.json

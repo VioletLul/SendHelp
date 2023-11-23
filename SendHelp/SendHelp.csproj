@@ -10,6 +10,10 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <None Remove="Views\peakpx.jpg" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.WinUI.Notifications" Version="7.1.2" />
     <PackageReference Include="MahApps.Metro" Version="2.4.9" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
@@ -21,6 +25,10 @@
   
   <ItemGroup>
     <ProjectReference Include="..\SendHelp.Core\SendHelp.Core.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="Views\peakpx.jpg" />
   </ItemGroup>
 
   <ItemGroup>

@@ -29,7 +29,7 @@ public class ShellViewModel : BindableBase
         _rightPaneService = rightPaneService;
     }
 
-    public DelegateCommand GoBackCommand => _goBackCommand ?? (_goBackCommand = new DelegateCommand(OnGoBack, CanGoBack));
+    public DelegateCommand GoBackCommand => _goBackCommand ?? (_goBackCommand = new(OnGoBack, CanGoBack));
 
     public ICommand LoadedCommand => _loadedCommand ?? (_loadedCommand = new DelegateCommand(OnLoaded));
     public ICommand MenuFileExitCommand => _menuFileExitCommand ?? (_menuFileExitCommand = new DelegateCommand(OnMenuFileExit));
