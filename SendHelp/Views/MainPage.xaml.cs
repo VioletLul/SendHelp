@@ -1,12 +1,11 @@
 using SendHelp.ViewModels;
 
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace SendHelp.Views;
 
-public partial class MainPage : UserControl
+public partial class MainPage
 {
     public MainPage()
     {

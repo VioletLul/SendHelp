@@ -1,20 +1,17 @@
-using System.ComponentModel;
 using Prism.Mvvm;
-
-using System.Windows;
+using System.ComponentModel;
 using System.Windows.Input;
-using ABI.Windows.Foundation.Collections;
 
 namespace SendHelp.ViewModels;
 
 public class MainViewModel : BindableBase, INotifyPropertyChanged
 {
-    public event PropertyChangedEventHandler PropertyChanged;
+    public new event PropertyChangedEventHandler PropertyChanged;
 
-    public double Angle(double _angle)
+    public double Angle(double angle)
     {
         OnPropertyChanged(nameof(Angle));
-        return _angle;
+        return angle;
     }
 
     public void Arrows(KeyEventArgs e)
