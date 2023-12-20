@@ -1,12 +1,10 @@
-﻿using System.Windows;
-using System.Windows.Input;
-
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;
-
 using SendHelp.Constants;
 using SendHelp.Contracts.Services;
+using System.Windows;
+using System.Windows.Input;
 
 namespace SendHelp.ViewModels;
 
@@ -18,22 +16,12 @@ public class ShellViewModel : BindableBase
 {
     private readonly IRegionManager _regionManager;
     private readonly IRightPaneService _rightPaneService;
-    private IRegionNavigationService _navigationService;
     private DelegateCommand _goBackCommand;
-    private ICommand _menuViewsMainCommand;
     private ICommand _loadedCommand;
-    private ICommand _unloadedCommand;
     private ICommand _menuFileExitCommand;
-
-    public DelegateCommand GoBackCommand => _goBackCommand ?? (_goBackCommand = new DelegateCommand(OnGoBack, CanGoBack));
-
-    public ICommand MenuViewsMainCommand => _menuViewsMainCommand ?? (_menuViewsMainCommand = new DelegateCommand(OnMenuViewsMain));
-
-    public ICommand LoadedCommand => _loadedCommand ?? (_loadedCommand = new DelegateCommand(OnLoaded));
-
-    public ICommand UnloadedCommand => _unloadedCommand ?? (_unloadedCommand = new DelegateCommand(OnUnloaded));
-
-    public ICommand MenuFileExitCommand => _menuFileExitCommand ?? (_menuFileExitCommand = new DelegateCommand(OnMenuFileExit));
+    private ICommand _menuViewsMainCommand;
+    private IRegionNavigationService _navigationService;
+    private ICommand _unloadedCommand;
 
     public ShellViewModel(IRegionManager regionManager, IRightPaneService rightPaneService)
     {
@@ -41,11 +29,33 @@ public class ShellViewModel : BindableBase
         _rightPaneService = rightPaneService;
     }
 
+    public DelegateCommand GoBackCommand => _goBackCommand ?? (_goBackCommand = new DelegateCommand(OnGoBack, CanGoBack));
+
+    public ICommand LoadedCommand => _loadedCommand ?? (_loadedCommand = new DelegateCommand(OnLoaded));
+    public ICommand MenuFileExitCommand => _menuFileExitCommand ?? (_menuFileExitCommand = new DelegateCommand(OnMenuFileExit));
+    public ICommand MenuViewsMainCommand => _menuViewsMainCommand ?? (_menuViewsMainCommand = new DelegateCommand(OnMenuViewsMain));
+    public ICommand UnloadedCommand => _unloadedCommand ?? (_unloadedCommand = new DelegateCommand(OnUnloaded));
+
+    private bool CanGoBack()
+        => _navigationService != null && _navigationService.Journal.CanGoBack;
+
+    private void OnGoBack()
+        => _navigationService.Journal.GoBack();
+
     private void OnLoaded()
     {
         _navigationService = _regionManager.Regions[Regions.Main].NavigationService;
         _navigationService.Navigated += OnNavigated;
     }
+
+    private void OnMenuFileExit()
+        => Application.Current.Shutdown();
+
+    private void OnMenuViewsMain()
+        => RequestNavigateAndCleanJournal(PageKeys.Main);
+
+    private void OnNavigated(object sender, RegionNavigationEventArgs e)
+        => GoBackCommand.RaiseCanExecuteChanged();
 
     private void OnUnloaded()
     {
@@ -53,12 +63,6 @@ public class ShellViewModel : BindableBase
         _regionManager.Regions.Remove(Regions.Main);
         _rightPaneService.CleanUp();
     }
-
-    private bool CanGoBack()
-        => _navigationService != null && _navigationService.Journal.CanGoBack;
-
-    private void OnGoBack()
-        => _navigationService.Journal.GoBack();
 
     private bool RequestNavigate(string target)
     {
@@ -79,13 +83,4 @@ public class ShellViewModel : BindableBase
             _navigationService.Journal.Clear();
         }
     }
-
-    private void OnNavigated(object sender, RegionNavigationEventArgs e)
-        => GoBackCommand.RaiseCanExecuteChanged();
-
-    private void OnMenuFileExit()
-        => Application.Current.Shutdown();
-
-    private void OnMenuViewsMain()
-        => RequestNavigateAndCleanJournal(PageKeys.Main);
 }
