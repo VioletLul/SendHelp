@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj": {}
+    "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+    "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
         "projectName": "SendHelp.Core",
-        "projectPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
-        "packagesPath": "C:\\Users\\Jroes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\obj\\",
+        "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj",
+        "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
+        "outputPath": "D:\\SendHelp\\SendHelp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jroes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roesser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +25,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -44,14 +45,6 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "HtmlRenderer.WinForms": {
-              "target": "Package",
-              "version": "[1.5.0.6, )"
-            },
-            "MvvmLight": {
-              "target": "Package",
-              "version": "[5.4.1.1, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -78,20 +71,20 @@
         }
       }
     },
-    "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj": {
+    "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
         "projectName": "SendHelp.Tests.MSTest",
-        "projectPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
-        "packagesPath": "C:\\Users\\Jroes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Tests.MSTest\\obj\\",
+        "projectPath": "D:\\SendHelp\\SendHelp.Tests.MSTest\\SendHelp.Tests.MSTest.csproj",
+        "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
+        "outputPath": "D:\\SendHelp\\SendHelp.Tests.MSTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jroes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roesser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,6 +92,7 @@
           "net6.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -106,8 +100,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\SendHelp.csproj": {
-                "projectPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\SendHelp.csproj"
+              "D:\\SendHelp\\SendHelp\\SendHelp.csproj": {
+                "projectPath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj"
               }
             }
           }
@@ -122,10 +116,6 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
-            "HtmlRenderer.WinForms": {
-              "target": "Package",
-              "version": "[1.5.0.6, )"
-            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.8, )"
@@ -141,10 +131,6 @@
             "Moq": {
               "target": "Package",
               "version": "[4.16.1, )"
-            },
-            "MvvmLight": {
-              "target": "Package",
-              "version": "[5.4.1.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -181,20 +167,20 @@
         }
       }
     },
-    "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\SendHelp.csproj": {
+    "D:\\SendHelp\\SendHelp\\SendHelp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\SendHelp.csproj",
+        "projectUniqueName": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
         "projectName": "SendHelp",
-        "projectPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\SendHelp.csproj",
-        "packagesPath": "C:\\Users\\Jroes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp\\obj\\",
+        "projectPath": "D:\\SendHelp\\SendHelp\\SendHelp.csproj",
+        "packagesPath": "C:\\Users\\roesser\\.nuget\\packages\\",
+        "outputPath": "D:\\SendHelp\\SendHelp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jroes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roesser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,6 +188,7 @@
           "net6.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -209,8 +196,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
-                "projectPath": "C:\\Users\\Jroes\\Desktop\\GitHub Repos\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
+              "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj": {
+                "projectPath": "D:\\SendHelp\\SendHelp.Core\\SendHelp.Core.csproj"
               }
             }
           }
@@ -228,10 +215,6 @@
             "CommunityToolkit.WinUI.Notifications": {
               "target": "Package",
               "version": "[7.1.2, )"
-            },
-            "HtmlRenderer.WinForms": {
-              "target": "Package",
-              "version": "[1.5.0.6, )"
             },
             "MahApps.Metro": {
               "target": "Package",
@@ -252,10 +235,6 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "MvvmLight": {
-              "target": "Package",
-              "version": "[5.4.1.1, )"
             },
             "Prism.Unity": {
               "target": "Package",
